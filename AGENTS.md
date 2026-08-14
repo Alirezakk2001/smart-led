@@ -1278,3 +1278,21 @@ The project should evolve as one product with two independently maintainable imp
 The contract between these sides is more important than any individual implementation.
 
 When implementation details change, preserve the product contract and user experience wherever possible.
+
+
+## Git Commit Identity
+
+- All Git commits created by the agent MUST use the following author identity:
+  - Name: `codex`
+  - Email: `codex@mail.com`
+- Before creating a commit, ensure the Git author identity is configured correctly.
+- Do not use the user's personal Git name or email for agent-created commits.
+
+## Task Management
+
+- Keep tasks small, focused, and reasonably short.
+- Do NOT create large tasks that combine multiple independent features, changes, or responsibilities.
+- If a task is expected to be long or complex, split it into multiple smaller, logical tasks.
+- Each task should have a clear and limited objective and should ideally be independently testable.
+- Complete and test each small task before moving to the next one.
+- Avoid unnecessary scope expansion within a task.
