@@ -1,0 +1,6 @@
+[submodule "smart-led-app"]
+	path = smart-led-app
+	url = git@github.com:Alirezakk2001/smart-led-app.git
+[submodule "smart-led-firmware"]
+	path = smart-led-firmware
+	url = git@github.com:Alirezakk2001/smart-led-firmware.git
